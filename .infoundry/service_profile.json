@@ -1,0 +1,30 @@
+{
+  "services": {
+    "frontend": {
+      "path": ".",
+      "has_dockerfile": false,
+      "language": "javascript",
+      "framework": "react",
+      "ports": [],
+      "databases": [],
+      "queues": []
+    },
+    "backend": {
+      "path": ".",
+      "has_dockerfile": false,
+      "language": "python",
+      "framework": "flask",
+      "ports": [],
+      "databases": [
+        "sqlite"
+      ],
+      "queues": []
+    }
+  },
+  "service_count": 2,
+  "languages": [
+    "javascript",
+    "python"
+  ],
+  "primary_language": "javascript"
+}
